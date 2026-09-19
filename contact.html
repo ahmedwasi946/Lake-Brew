@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Book a Table | Lake Brew Bhopal</title>
+    
+    <meta name="description" content="Reserve a table at Lake Brew café in Bhopal. Get contact details, address, opening hours, and direct inquiries.">
+    <meta name="keywords" content="Book a Table Bhopal, Lake Brew Contact, Lakeview Cafe Hours, Cafe Reservation Bhopal">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lakebrew.in/contact.html">
+    <meta property="og:title" content="Contact & Book a Table | Lake Brew Bhopal">
+    <meta property="og:description" content="Reserve your lakeside table or reach out to our team at Lake Brew, Bhopal.">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <a class="logo" href="index.html">☕ Lake <span>Brew</span></a>
+
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav id="navMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a class="nav-cta active" href="contact.html">Book a Table</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="page-hero">
+        <div class="kicker" style="color:#d9ad58">We'd love to hear from you</div>
+        <h1>Get in <span>touch</span></h1>
+        <p>Questions, table bookings or just want to say hello?</p>
+    </section>
+
+    <section class="section">
+        <div class="contact-wrap">
+            <div class="contact-info">
+                <h2>Come by for a brew.</h2>
+                <p>Send us a message and our team will get back to you. For bookings, include your preferred date and time.</p>
+
+                <div class="contact-line">
+                    <strong>Visit</strong>
+                    Bhopal, Madhya Pradesh 462001
+                </div>
+
+                <div class="contact-line">
+                    <strong>Email</strong>
+                    hello@lakebrew.in
+                </div>
+
+                <div class="contact-line">
+                    <strong>Hours</strong>
+                    10:00 AM – 10:00 PM
+                </div>
+            </div>
+
+            <div class="form-box">
+                <h2>Send a message</h2>
+                
+                <div id="formSuccess" class="form-success-msg" style="display: none;">
+                    ✅ Thank you! Your message has been sent. We will confirm your request shortly.
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <label for="name">Your Name</label>
+                    <input id="name" name="name" type="text" placeholder="Enter your name" required>
+
+                    <label for="email">Your Email</label>
+                    <input id="email" name="email" type="email" placeholder="Enter your email" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" name="phone" type="tel" placeholder="Enter your phone number">
+
+                    <label for="message">Your Message / Booking Details</label>
+                    <textarea id="message" name="message" placeholder="Tell us how we can help or enter booking time..." required></textarea>
+
+                    <button class="btn" type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 <strong>Lake Brew</strong>, Bhopal. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

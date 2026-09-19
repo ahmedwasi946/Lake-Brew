@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Lake Brew Café Bhopal</title>
+
+    <meta name="description" content="Explore the Lake Brew menu: chai, coffee, snacks and desserts in Bhopal.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lakebrew.in/menu.html">
+    <meta property="og:title" content="Menu | Lake Brew Café Bhopal">
+    <meta property="og:description" content="Favourite brews and easy bites for every kind of mood.">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <a class="logo" href="index.html">☕ Lake <span>Brew</span></a>
+
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav id="navMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a class="nav-cta" href="contact.html">Book a Table</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="page-hero menu-hero">
+        <div class="kicker" style="color: #d9ad58;">FRESH • WARM • SIMPLE</div>
+        <h1>Our <span>Menu</span></h1>
+        <p>Favourite brews and easy bites for every kind of mood.</p>
+    </section>
+
+    <div class="menu-filter-container" role="group" aria-label="Filter menu items">
+        <button type="button" class="filter-btn active" data-category="all" aria-pressed="true">All Items</button>
+        <button type="button" class="filter-btn" data-category="brew" aria-pressed="false">Brew Bar</button>
+        <button type="button" class="filter-btn" data-category="bites" aria-pressed="false">Easy Bites</button>
+        <button type="button" class="filter-btn" data-category="sweets" aria-pressed="false">Sweet Treats</button>
+    </div>
+
+    <section class="section menu-section" data-category="brew">
+        <div class="section-head">
+            <div class="kicker">BREW BAR</div>
+            <h2>Something warm</h2>
+        </div>
+
+        <div class="menu-grid">
+            <article class="menu-item">
+                <div><h3>Masala Chai</h3><p>Classic Indian chai with aromatic spices.</p></div>
+                <span class="price">₹90</span>
+            </article>
+            <article class="menu-item">
+                <div><h3>Adrak Chai</h3><p>Ginger-infused chai with a warming finish.</p></div>
+                <span class="price">₹100</span>
+            </article>
+            <article class="menu-item">
+                <div><h3>Elaichi Chai</h3><p>Fragrant cardamom chai, smooth and comforting.</p></div>
+                <span class="price">₹100</span>
+            </article>
+            <article class="menu-item">
+                <div><h3>Classic Coffee</h3><p>Rich, smooth coffee brewed for a comforting cup.</p></div>
+                <span class="price">₹120</span>
+            </article>
+            <article class="menu-item">
+                <div><h3>Cold Coffee</h3><p>Chilled creamy coffee, lightly sweet and refreshing.</p></div>
+                <span class="price">₹150</span>
+            </article>
+            <article class="menu-item">
+                <div><h3>Cappuccino</h3><p>Espresso topped with silky steamed milk and foam.</p></div>
+                <span class="price">₹160</span>
+            </article>
+            <article class="menu-item">
+                <div><h3>Hot Chocolate</h3><p>Velvety chocolate drink, rich and indulgent.</p></div>
+                <span class="price">₹150</span>
+            </article>
+            <article class="menu-item">
+                <div><h3>Green Tea</h3><p>Light and refreshing tea with a clean finish.</p></div>
+                <span class="price">₹90</span>
+            </article>
+        </div>
+    </section>
+
+    <section class="section menu-section" data-category="bites">
+        <div class="section-head">
+            <div class="kicker">FROM THE KITCHEN</div>
+            <h2>Easy bites</h2>
+        </div>
+
+        <div class="menu-grid">
+            <article class="menu-item">
+                <div><h3>Veg Sandwich</h3><p>Fresh vegetables, cheese and house spread in toasted bread.</p></div>
+                <span class="price">₹140</span>
+            </article>
+            <article class="menu-item">
+                <div><h3>Grilled Cheese</h3><p>Golden toasted bread filled with warm, melted cheese.</p></div>
+                <span class="price">₹150</span>
+            </article>
+            <article class="menu-item">
+                <div><h3>Paneer Wrap</h3><p>Spiced paneer, fresh vegetables and creamy sauce wrapped warm.</p></div>
+                <span class="price">₹180</span>
+            </article>
+            <article class="menu-item">
+                <div><h3>French Fries</h3><p>Crisp golden fries served with a house dipping sauce.</p></div>
+                <span class="price">₹120</span>
+            </article>
+            <article class="menu-item">
+                <div><h3>Masala Fries</h3><p>Crispy fries tossed with our signature Indian spice mix.</p></div>
+                <span class="price">₹140</span>
+            </article>
+            <article class="menu-item">
+                <div><h3>Veg Momos</h3><p>Steamed dumplings filled with seasoned vegetables.</p></div>
+                <span class="price">₹150</span>
+            </article>
+        </div>
+    </section>
+
+    <section class="section menu-section" data-category="sweets">
+        <div class="section-head">
+            <div class="kicker">SWEET TREATS</div>
+            <h2>Something sweet</h2>
+        </div>
+
+        <div class="menu-grid">
+            <article class="menu-item">
+                <div><h3>Chocolate Brownie</h3><p>Soft, fudgy chocolate brownie served warm.</p></div>
+                <span class="price">₹130</span>
+            </article>
+            <article class="menu-item">
+                <div><h3>Chocolate Cake</h3><p>Moist chocolate cake with a rich, smooth finish.</p></div>
+                <span class="price">₹150</span>
+            </article>
+            <article class="menu-item">
+                <div><h3>Ice Cream</h3><p>A scoop of creamy ice cream to finish your visit.</p></div>
+                <span class="price">₹100</span>
+            </article>
+        </div>
+    </section>
+
+    <section class="section menu-cta">
+        <div class="section-head">
+            <div class="kicker">COME BY</div>
+            <h2>Your table is waiting.</h2>
+            <p>Good coffee, warm food and a relaxed lakeside atmosphere.</p>
+            <a class="nav-cta" href="contact.html">Book a Table ↗</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 <strong>Lake Brew</strong>. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
